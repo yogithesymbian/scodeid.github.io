@@ -515,7 +515,7 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "For ranking an employe ( kaprodi ) with Analytical Hierarchy Process (AHP) arithmatic, try live with netlify. $30.47 in 3 days"
+            "(helping my friend For Last Job ) ranking an employe ( kaprodi ) with Analytical Hierarchy Process (AHP) arithmatic, try live with netlify. in 3 days"
           )
         ),
         React.createElement(
@@ -543,6 +543,24 @@ const Projects = (props) => {
 
           React.createElement("small", null, "Built using Kotlin - offline"),
           React.createElement("p", null, "For tasbih . [freeTime]")
+        ),
+
+        React.createElement(
+          Project,
+          {
+            title: "Blanjaque",
+            img: "./img/blanjaque.jpeg",
+            tech: "kotlin",
+            link: "https://play.google.com/store/apps/details?id=com.blanjaque",
+            repo: "#private",
+          },
+
+          React.createElement("small", null, "Built using kotlin, & Firebase."),
+          React.createElement(
+            "p",
+            null,
+            "i added feature chatting for buyer and seller and implementation for their API Response , detail product for consume data for chatting and other"
+          )
         ),
         React.createElement(
           Project,
