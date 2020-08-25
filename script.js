@@ -559,7 +559,7 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "i added feature chatting for buyer and seller and implementation for their API Response , detail product for consume data for chatting and other"
+            "i added feature chatting for buyer and seller and implementation for their API Response , detail product for consume data for chatting and other $20.47 in 1 week 6 days"
           )
         ),
         React.createElement(
@@ -614,6 +614,23 @@ const Projects = (props) => {
             "Built using JAVA Netbeans , MySQL "
           ),
           React.createElement("p", null, "[task at collage]")
+        ),
+        React.createElement(
+          Project,
+          {
+            title: "to Excel and PDF",
+            img: "./img/empty.jpg",
+            tech: "reactJS",
+            link: "#private",
+            repo: "#private",
+          },
+
+          React.createElement("small", null, "Built using php native , MySQL"),
+          React.createElement(
+            "p",
+            null,
+            "added feature for pos (web) applications $ in 2 days"
+          )
         ),
         React.createElement(
           "div",
