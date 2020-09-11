@@ -1,2 +1,2 @@
 # scodeid.github.io
-[Me](yogithesymbian.github.io)
+[Me](http://yogithesymbian.github.io)
