@@ -482,45 +482,6 @@ const Projects = (props) => {
         React.createElement(
           Project,
           {
-            title: "Failure Code Android",
-            img: "./img/excavator.jpg",
-            tech: "Kotlin",
-            link: "#private",
-            repo: "#private",
-          },
-
-          React.createElement("small", null, "Built using Kotlin - offline."),
-          React.createElement(
-            "p",
-            null,
-            "For trouble about knowledge failure code unit an excavator. $27.08 in 1 days"
-          )
-        ),
-        React.createElement(
-          Project,
-          {
-            title: "Calon Kaprodi",
-            img: "./img/calonkaprodi.png",
-            tech: "reactJS",
-            link: "https://5f059bc73eb578e6089ae9b5--spk.netlify.app/",
-            repo:
-              "https://github.com/yogithesymbian/spk-calon-kaprodi-react-js",
-          },
-
-          React.createElement(
-            "small",
-            null,
-            "Built using reactJS, LumenAPI 5.5 & MySql."
-          ),
-          React.createElement(
-            "p",
-            null,
-            "(helping my friend For Last Job ) ranking an employe ( kaprodi ) with Analytical Hierarchy Process (AHP) arithmatic, try live with netlify. in 3 days"
-          )
-        ),
-        React.createElement(
-          Project,
-          {
             title: "Bimbel Cemerlang",
             img: "./img/empty.jpg",
             tech: "reactJS",
