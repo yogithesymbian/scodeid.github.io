@@ -33,8 +33,8 @@ const Menu = (props) => {
           React.createElement(
             "a",
             { href: "#welcome-section", onClick: props.toggleMenu },
-            "HOME"
-          )
+            "HOME",
+          ),
         ),
 
         React.createElement(
@@ -43,8 +43,8 @@ const Menu = (props) => {
           React.createElement(
             "a",
             { href: "#about", onClick: props.toggleMenu },
-            "ABOUT"
-          )
+            "ABOUT",
+          ),
         ),
 
         React.createElement(
@@ -53,8 +53,8 @@ const Menu = (props) => {
           React.createElement(
             "a",
             { href: "#projects", onClick: props.toggleMenu },
-            "PORTFOLIO"
-          )
+            "PORTFOLIO",
+          ),
         ),
 
         React.createElement(
@@ -63,13 +63,13 @@ const Menu = (props) => {
           React.createElement(
             "a",
             { href: "#contact", onClick: props.toggleMenu },
-            "CONTACT"
-          )
-        )
+            "CONTACT",
+          ),
+        ),
       ),
 
-      React.createElement(SocialLinks, null)
-    )
+      React.createElement(SocialLinks, null),
+    ),
   );
 };
 
@@ -92,7 +92,7 @@ const Nav = (props) => {
           { className: "brand" },
           "yogi arif",
 
-          React.createElement("strong", null, " widodo")
+          React.createElement("strong", null, " widodo"),
         ),
 
         React.createElement(
@@ -105,10 +105,10 @@ const Nav = (props) => {
                 : "menu-button",
           },
 
-          React.createElement("span", null)
-        )
-      )
-    )
+          React.createElement("span", null),
+        ),
+      ),
+    ),
   );
 };
 
@@ -129,18 +129,18 @@ const Header = (props) => {
       React.createElement(
         "h1",
         null,
-        React.createElement("span", { className: "line" }, "I do"),
+        React.createElement("span", { className: "line" }, "I specialize"),
         React.createElement(
           "span",
           { className: "line" },
-          "architecture backend"
+          React.createElement("span", { className: "color" }, "HRD Dreams"),
+          "",
         ),
         React.createElement(
           "span",
           { className: "line" },
-          React.createElement("span", { className: "color" }, "&"),
-          " api service."
-        )
+          " (entire department)",
+        ),
       ),
 
       React.createElement(
@@ -150,10 +150,10 @@ const Header = (props) => {
         React.createElement(
           "a",
           { href: "#contact", className: "cta" },
-          "get in touch"
-        )
-      )
-    )
+          "get in touch",
+        ),
+      ),
+    ),
   );
 };
 
@@ -175,7 +175,8 @@ const About = (props) => {
           "div",
           { className: "title" },
           React.createElement("h3", null, "Who's this guy?"),
-          React.createElement("p", { className: "separator" })
+          React.createElement("h3", null, "( 2017 - 2020 )"),
+          React.createElement("p", { className: "separator" }),
         ),
 
         React.createElement(
@@ -184,26 +185,26 @@ const About = (props) => {
           React.createElement(
             "h4",
             { className: "subtitle" },
-            "My name is Yogi."
+            "My name is Yogi.",
           ),
           React.createElement(
             "p",
             null,
-            "I am a (web & android) FullStackDeveloper and love for backend service with lumenAPI."
+            "I am a Full Stack Developer proficient in web and Android development. I have a passion for backend services, particularly with Lumen API.",
           ),
 
           React.createElement(
             "p",
             null,
-            "I really enjoy maintenable/solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also love photography, a hobby I'm taking along since reading qur'an; I have a passion for remember"
-          )
+            "I thoroughly enjoy maintaining and solving problems, as well as creating visually appealing and user-friendly interfaces. I have an insatiable appetite for learning new things; the more, the better. In addition to my love for coding, I also have a passion for photography, a hobby I've pursued since reading the Qur'an; it helps me remember moments that are precious to me.",
+          ),
         ),
 
         React.createElement(
           "div",
           { className: "title" },
           React.createElement("h3", null, "What does he do?"),
-          React.createElement("p", { className: "separator" })
+          React.createElement("p", { className: "separator" }),
         ),
 
         React.createElement(
@@ -212,24 +213,24 @@ const About = (props) => {
           React.createElement(
             "h4",
             { className: "subtitle" },
-            "I'm a programmer."
+            "I'm a programmer.",
           ),
           React.createElement(
             "p",
             null,
-            "For the front-end I usually work with Javascript, either standalone or including popular framework (laravel) - library like reactJS and VueJS. I also make the web pretty by using Sass, CSS and, whenever needed, any of their friends: Bootstrap."
+            "proficient in various technologies. On the front-end, I typically utilize JavaScript, either independently or in conjunction with popular frameworks such as ReactJS and VueJS, along with styling tools like Sass and CSS. When necessary, I also incorporate frameworks like Bootstrap to enhance the visual appeal of web applications.",
           ),
 
           React.createElement(
             "p",
             null,
-            "For the back-end I also work with PHP, I do PHP as well (Wordpress, LumenAPI, etc)."
+            "In terms of back-end development, I am skilled in PHP and proficient in frameworks such as WordPress and LumenAPI.",
           ),
           React.createElement(
             "p",
             null,
-            "Mobile device (Android) I usually work with native language like kotlin or java using Android Studio and managing code with MVP or MVVM"
-          )
+            "For mobile development on Android devices, I primarily use native languages like Kotlin or Java, leveraging Android Studio for development. I implement architectural patterns such as MVP or MVVM to organize and manage code effectively.",
+          ),
         ),
 
         React.createElement(
@@ -238,22 +239,22 @@ const About = (props) => {
           React.createElement(
             "h4",
             { className: "subtitle" },
-            "Also a designer."
+            "Also a designer.",
           ),
           React.createElement(
             "p",
             null,
-            "I feel comfortable working with many Adobe products. Photoshop, Illustrator, Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."
+            "I am comfortable working with various Adobe products such as Photoshop, Illustrator, and XD, which are industry standards that I thoroughly enjoy using. However, I am not limited to them; I also have experience working with other valid applications such as Gimp, Inkscape, or Figma.",
           ),
           React.createElement("h4", { className: "subtitle" }, "Hacking."),
           React.createElement(
             "p",
             null,
-            "My worst habbit is hacking-cracking, usually about internet access, getting wireless security and exploiting computers. but now I have learned about privacy, rules for hacking, and Cisco networks"
-          )
-        )
-      )
-    )
+            "My worst habit used to be hacking and cracking, typically related to gaining unauthorized internet access, exploiting wireless security, and compromising computers. However, I have since learned about privacy, ethical hacking principles, and Cisco networks.",
+          ),
+        ),
+      ),
+    ),
   );
 };
 
@@ -290,7 +291,7 @@ const Project = (props) => {
         className: "project-image",
         src: props.img,
         alt: "Screenshot of " + props.title,
-      })
+      }),
     ),
 
     React.createElement(
@@ -305,12 +306,12 @@ const Project = (props) => {
           props.tech
             .split(" ")
             .map((t) =>
-              React.createElement("i", { className: tech[t], key: t })
-            )
+              React.createElement("i", { className: tech[t], key: t }),
+            ),
         ),
 
         props.title,
-        " "
+        " ",
       ),
 
       props.children,
@@ -321,17 +322,17 @@ const Project = (props) => {
           "a",
           { href: repo, target: "_blank", rel: "noopener noreferrer" },
           "View source ",
-          React.createElement("i", { className: "fas fa-external-link-alt" })
+          React.createElement("i", { className: "fas fa-external-link-alt" }),
         ),
 
         React.createElement(
           "a",
           { href: link, target: "_blank", rel: "noopener noreferrer" },
           "Try it Live ",
-          React.createElement("i", { className: "fas fa-external-link-alt" })
-        )
-      )
-    )
+          React.createElement("i", { className: "fas fa-external-link-alt" }),
+        ),
+      ),
+    ),
   );
 };
 
@@ -356,7 +357,7 @@ const Projects = (props) => {
           { className: "subtitle" },
           "Here's a list of ",
           React.createElement("u", null, "most"),
-          " of the projects I've been working on lately. All of these were built during my",
+          "most of the projects I've been working on lately. All of these were built during my ",
           " ",
           React.createElement(
             "a",
@@ -365,10 +366,10 @@ const Projects = (props) => {
               target: "_blank",
               rel: "noopener noreferrer",
             },
-            "college"
+            "college",
           ),
-          ", where I've been coding for almost 2 year's non-stop until I completed all the projects."
-        )
+          ",  years, where I've been coding non-stop for almost 2 years until I completed all the projects.",
+        ),
       ),
       React.createElement(
         "div",
@@ -388,8 +389,8 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "This is a webservice that I made which lets the client read and order rental car (get and set). try live use this JWT = VlI1dU50Y3kzM1o1dzRVejB1U 2NLNnZOTjNGdEtVekRqZkd6VkphbQ== {remove whitespace between token} [source is private]. [myStartUp]"
-          )
+            "This is a webservice that I made which lets the client read and order rental car (get and set). try live use this JWT = VlI1dU50Y3kzM1o1dzRVejB1U 2NLNnZOTjNGdEtVekRqZkd6VkphbQ== {remove whitespace between token} [source is private]. [myStartUp]",
+          ),
         ),
 
         React.createElement(
@@ -405,14 +406,14 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using Kotlin & Java, C Language, Firebase & MySQL."
+            "Built using Kotlin & Java, C Language, Firebase & MySQL.",
           ),
 
           React.createElement(
             "p",
             null,
-            "Have Neuro-linguistic programming (NLP) bot chat (communicate) with car, Base IoT. [myStartUp]"
-          )
+            "Have Neuro-linguistic programming (NLP) bot chat (communicate) with car, Base IoT. [myStartUp]",
+          ),
         ),
 
         React.createElement(
@@ -428,13 +429,13 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using Laravel, MySQL, JS + jQuery, CSS, SASS + Bootstrap."
+            "Built using Laravel, MySQL, JS + jQuery, CSS, SASS + Bootstrap.",
           ),
           React.createElement(
             "p",
             null,
-            "Sistem Informasi Pendukung Keputusan. [source is private]. $203.11 in 7 days"
-          )
+            "Sistem Informasi Pendukung Keputusan. [source is private]. $203.11 in 7 days",
+          ),
         ),
         React.createElement(
           Project,
@@ -449,13 +450,13 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using Kotlin & Java, C Language & Python, Firebase."
+            "Built using Kotlin & Java, C Language & Python, Firebase.",
           ),
           React.createElement(
             "p",
             null,
-            "Base IoT. [source is private] [task at collage]"
-          )
+            "Base IoT. [source is private] [task at collage]",
+          ),
         ),
         React.createElement(
           Project,
@@ -471,13 +472,13 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using Kotlin & Java, LumenAPI 5.5 & MySql."
+            "Built using Kotlin & Java, LumenAPI 5.5 & MySql.",
           ),
           React.createElement(
             "p",
             null,
-            "For work from home(WFH). $101.55 in 5 days"
-          )
+            "For work from home(WFH). $101.55 in 5 days",
+          ),
         ),
         React.createElement(
           Project,
@@ -490,7 +491,7 @@ const Projects = (props) => {
           },
 
           React.createElement("small", null, "Built using CMS ( wordpress )"),
-          React.createElement("p", null, "For product show. $67.70 in #")
+          React.createElement("p", null, "For product show. $67.70 in #"),
         ),
         React.createElement(
           Project,
@@ -503,7 +504,7 @@ const Projects = (props) => {
           },
 
           React.createElement("small", null, "Built using Kotlin - offline"),
-          React.createElement("p", null, "For tasbih . [freeTime]")
+          React.createElement("p", null, "For tasbih . [freeTime]"),
         ),
 
         React.createElement(
@@ -520,8 +521,8 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "i added feature chatting for buyer and seller and implementation for their API Response , detail product for consume data for chatting and other $20.47 in 1 week 6 days"
-          )
+            "I added a chatting feature for buyers and sellers, along with the implementation of their API responses. I included detailed product information for data consumption in the chat and other tasks, completing the project in 1 week and 6 days for a total of $20.47.",
+          ),
         ),
         React.createElement(
           Project,
@@ -529,13 +530,12 @@ const Projects = (props) => {
             title: "yoChat polnes",
             img: "./img/yochat.png",
             tech: "reactJS",
-            link:
-              "https://play.google.com/store/apps/details?id=id.scode.yochat&hl=ms",
+            link: "https://play.google.com/store/apps/details?id=id.scode.yochat&hl=ms",
             repo: "#private",
           },
 
           React.createElement("small", null, "Built using Kotlin , Firebase"),
-          React.createElement("p", null, "For education in chat . [freeTime]")
+          React.createElement("p", null, "For education in chat . [freeTime]"),
         ),
         React.createElement(
           Project,
@@ -543,21 +543,20 @@ const Projects = (props) => {
             title: "yoChat desktop",
             img: "./img/yochat.jpg",
             tech: "reactJS",
-            link:
-              "https://play.google.com/store/apps/details?id=id.scode.yochat&hl=ms",
+            link: "https://play.google.com/store/apps/details?id=id.scode.yochat&hl=ms",
             repo: "#private",
           },
 
           React.createElement(
             "small",
             null,
-            "Built using VBNET , MySQL (ODBC)"
+            "Built using VBNET , MySQL (ODBC)",
           ),
           React.createElement(
             "p",
             null,
-            "For testing TCP connection of nano ubiquiti (Radio Wireless) with chat . [task at Vocational High School]"
-          )
+            "To test TCP connections of Nano Ubiquiti (Wireless Radio) with chat functionality. [Task completed during my time at Vocational High School]",
+          ),
         ),
         React.createElement(
           Project,
@@ -572,9 +571,9 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using JAVA Netbeans , MySQL "
+            "Built using JAVA Netbeans , MySQL ",
           ),
-          React.createElement("p", null, "[task at collage]")
+          React.createElement("p", null, "[task at collage]"),
         ),
         React.createElement(
           Project,
@@ -590,8 +589,8 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "added feature for pos (web) applications $ in 2 days"
-          )
+            "Added a feature for POS (web) applications within 2 days.",
+          ),
         ),
         React.createElement(
           "div",
@@ -603,7 +602,7 @@ const Projects = (props) => {
             { className: "subtitle" },
             "Here's a list of ",
             React.createElement("u", null, "most"),
-            " of the training I've been working on lately. All of these were built during my",
+            " most of the training I've been working on lately. All of these were completed during my ",
             " ",
             React.createElement(
               "a",
@@ -612,10 +611,10 @@ const Projects = (props) => {
                 target: "_blank",
                 rel: "noopener noreferrer",
               },
-              "college"
+              "college",
             ),
-            ", where I've been coding for almost 2 year's non-stop until I completed all the projects "
-          )
+            ",  years, where I dedicated almost 2 years of non-stop coding until I completed all the projects.",
+          ),
         ),
 
         React.createElement(
@@ -631,14 +630,14 @@ const Projects = (props) => {
           React.createElement(
             "small",
             null,
-            "Built using Kotlin & Java, Firebase & MySQL, PHP."
+            "Built using Kotlin & Java, Firebase & MySQL, PHP.",
           ),
 
           React.createElement(
             "p",
             null,
-            "Prakering (PKL) / Magang at PF SOFT i have build Management Item Grossy and ordering item. [source is private]"
-          )
+            "Prakering (PKL) / Magang at PF SOFT i have build Management Item Grossy and ordering item. [source is private]",
+          ),
         ),
         React.createElement(
           Project,
@@ -646,10 +645,8 @@ const Projects = (props) => {
             title: "yoMovie.",
             img: "./img/made.png",
             tech: "kotlin java xml",
-            link:
-              "https://github.com/yogithesymbian/submission-scholarship-google-kejar-2019",
-            repo:
-              "https://github.com/yogithesymbian/submission-scholarship-google-kejar-2019",
+            link: "https://github.com/yogithesymbian/submission-scholarship-google-kejar-2019",
+            repo: "https://github.com/yogithesymbian/submission-scholarship-google-kejar-2019",
           },
 
           React.createElement("small", null, "Built using Kotlin & Java."),
@@ -657,8 +654,8 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "class menjadi android developer expert [MADE] with dicoding"
-          )
+            "class menjadi android developer expert [MADE] with dicoding",
+          ),
         ),
         React.createElement(
           Project,
@@ -666,10 +663,8 @@ const Projects = (props) => {
             title: "yoBall.",
             img: "./img/kade.png",
             tech: "kotlin java xml",
-            link:
-              "https://github.com/yogithesymbian/Kotlin-Android-Developer-Expert",
-            repo:
-              "https://github.com/yogithesymbian/Kotlin-Android-Developer-Expert",
+            link: "https://github.com/yogithesymbian/Kotlin-Android-Developer-Expert",
+            repo: "https://github.com/yogithesymbian/Kotlin-Android-Developer-Expert",
           },
 
           React.createElement("small", null, "Built using Kotlin ."),
@@ -677,11 +672,11 @@ const Projects = (props) => {
           React.createElement(
             "p",
             null,
-            "class kotlin android developer expert [KADE] with dicoding"
-          )
-        )
-      )
-    )
+            "class kotlin android developer expert [KADE] with dicoding",
+          ),
+        ),
+      ),
+    ),
   );
 };
 
@@ -707,7 +702,7 @@ const Contact = (props) => {
             { className: "title" },
             "Want to ",
             React.createElement("br", null),
-            "contact me?"
+            "contact me?",
           ),
 
           React.createElement("p", { className: "separator" }),
@@ -725,13 +720,13 @@ const Contact = (props) => {
               "gmail",
 
               React.createElement("i", { className: "fas fa-circle dot" }),
-              "com"
+              "com",
             ),
-            ":"
-          )
+            ":",
+          ),
         ),
 
-        React.createElement(SocialLinks, null)
+        React.createElement(SocialLinks, null),
       ),
 
       React.createElement(
@@ -759,9 +754,9 @@ const Contact = (props) => {
           id: "submit",
           value: "Submit",
           type: "submit",
-        })
-      )
-    )
+        }),
+      ),
+    ),
   );
 };
 
@@ -782,10 +777,10 @@ const Footer = (props) => {
         null,
         "\xA9 ",
         new Date().getFullYear(),
-        " Yago Est\xE9vez. ReEdit Yogi Arif Widodo"
+        " Yago Est\xE9vez. ReEdit Yogi Arif Widodo",
       ),
-      React.createElement(SocialLinks, null)
-    )
+      React.createElement(SocialLinks, null),
+    ),
   );
 };
 
@@ -807,7 +802,7 @@ const SocialLinks = (props) => {
       },
 
       " ",
-      React.createElement("i", { className: "fab fa-twitter" })
+      React.createElement("i", { className: "fab fa-twitter" }),
     ),
 
     React.createElement(
@@ -821,7 +816,7 @@ const SocialLinks = (props) => {
       },
 
       " ",
-      React.createElement("i", { className: "fab fa-github" })
+      React.createElement("i", { className: "fab fa-github" }),
     ),
 
     React.createElement(
@@ -834,8 +829,8 @@ const SocialLinks = (props) => {
       },
 
       " ",
-      React.createElement("i", { className: "fab fa-codepen" })
-    )
+      React.createElement("i", { className: "fab fa-codepen" }),
+    ),
   );
 };
 
@@ -861,7 +856,7 @@ class App extends React.Component {
             ? "active"
             : "deactive",
         }));
-      }
+      },
     );
   }
 
@@ -881,7 +876,7 @@ class App extends React.Component {
       React.createElement(About, null),
       React.createElement(Projects, null),
       React.createElement(Contact, null),
-      React.createElement(Footer, null)
+      React.createElement(Footer, null),
     );
   }
 
